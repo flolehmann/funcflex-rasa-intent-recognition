@@ -1,0 +1,23 @@
+version: '3.0'
+services:
+  rasa:
+    image: rasa/rasa:2.8.3-full
+#    ports:
+#      - 5005:5005
+    volumes:
+      - ./app:/app
+    command: >
+      run --enable-api --cors "*"
+    networks:
+      - traefik-net
+    labels:
+      - "traefik.port=8088"
+      - "traefik.docker.network=traefik-net"
+      - "traefik.enable=true"
+      - "traefik.http.routers.limesurvey.rule=PathPrefix(`/collabo-writing-rasa`)"
+      - "traefik.http.routers.limesurvey.middlewares=strip-collabo-writing-rasa@docker"
+      - "traefik.http.middlewares.strip-collabo-writing-rasa.stripprefix.prefixes=/collabo-writing-rasa"
+
+networks:
+  traefik-net:
+    external: true
