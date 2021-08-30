@@ -1,0 +1,277 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: summarize
+  examples: |
+    - summarise this text
+    - Make summary of paragraph
+    - 'Summarize paragraph 3-6  '
+    - Write summary for previous section
+    - sum up
+    - this paragraph is about the benefits of candy
+    - Create a summary of this text
+    - Is the text clear
+    - "na ko\u0144cu zadania zawsze podsumuj wszystko"
+    - State what the text is about in a few words
+    - summarise
+    - Can you summarise into a short paragraph
+    - make a summary
+    - Give overview of document in summary paragraph
+    - Collect and output the summery of the text
+    - 'summarize '
+    - Conclusion style
+    - 'Change margins to narrow '
+    - create a summary which is logical to the context of the text
+    - Add key points
+    - Summarise <section>
+    - summarise the first paragraph
+    - 'it doesn''t summarise anything '
+    - summarise this text
+    - Please summarise this document
+    - Summarise highlighted section
+    - all
+    - summarise paragraph 5
+    - 'Make a flowchart of activities '
+    - 'Create summary '
+    - Summarise
+    - summarise
+    - Summarise the following paragraph
+    - In summary...
+    - Summarize please
+    - summarise section (provide key information points)
+    - Summarise the introductory paragraph into three sentences.
+    - maps sequence
+    - 'It can help me to re summarise my paragraphs '
+    - Write a 100 word summary of the section above
+    - Please summarize the title to 5 keywords.
+    - List conclusions reach
+    - summarise the text
+    - '@AI Agent - Please summarise the text. '
+    - Please summarize the text below.
+    - Summarise para
+    - sum up
+    - paraphrase
+    - SUmmarise second paragraph
+    - Summarise document
+    - What is the overall meaning of this text?
+    - sum up
+    - 'provide summary for paragraph 1 '
+    - please could you summarise this
+    - summarise my document
+    - 'Summarise '
+    - Summarise the topics written about the subject.
+    - Summarise paragraph 3
+    - Can you please condense the paragraph to a max of 5 sentences.
+    - 'In short '
+    - What are the main points of this section
+    - Have I missed any points
+    - ai summarise task asap
+    - please summarise the text
+    - Summarise section A in 200 words or less
+    - What are the basics of this?
+    - show me a summary of the entire document
+    - summery
+    - summarise
+    - To pull all the information together.
+    - Tell me a summary of this text
+    - Produce summary of text
+    - Could you write a summary please?
+    - sure will help
+    - summarise article into 5 or less bullet points
+    - 'Summarise each section '
+    - '@ai_agent summarise text'
+    - '@ai agent - summerise document'
+    - this could be simplified
+    - Summersie the technical specification for this product
+    - Summarise this paragraph
+    - give summary of the open document
+    - give a summary of the following text
+    - Create summary
+    - Summarise the text.
+    - 'Helpful '
+    - summarise the revenue
+    - Summarise (highlighted text)
+    - Summarise this section
+    - please summarise text
+    - Summarise this
+    - Making shrt summary on the basis of the "body" of the text
+    - 'check paragraph one and summarise '
+    - Summarise the highlighted section
+    - Summarise the document in 3 sentences
+    - 'summarise each chapter '
+    - Prospective summary
+    - Give me an overview of the text
+    - Summarise text.
+    - 'Summarise letter.  '
+    - Summarise this text
+    - Summarise the body section of the text into 3 sentences
+    - Summarise all text
+    - SUMMARYAI
+    - Summarise the projects goals
+    - Summarise the above section
+    - Conclude 'x'
+    - 'idk what too say '
+    - ai summarise above
+    - Outline
+    - Read through paragraph and give summary.
+    - Summarise document
+    - Summarise please
+    - remove waste text
+    - Kinds of Candy
+    - create a summary
+    - Summarize paragraphs highlighted
+    - this paragraph is about the cons of candy
+    - Pick out key words
+    - Please bullet point what this document is about
+    - select keywords for better sentence
+    - shroten
+    - Introduction style
+    - Upload a candy picture to document
+    - Summarize section
+    - Summary for <section>
+    - make a summary
+    - 'Please create a summary using paragraphs 1 and 2 '
+    - Create synopsis
+    - What's the summary?
+    - In short...
+    - sensors
+    - Please summarize the highlighted text to the shortest possible version.
+    - Summarise findings
+    - '@AI Agent - Please provide a conclusion to the text. '
+    - Summarise section
+    - Give summary of
+    - Provide a summary of this text.
+    - summarise
+    - Summarise text
+    - Sum up the topics.
+    - Summarise closing paragraph
+    - Can you use succinct language to say the same thing
+    - 'Abbreviate '
+    - Have I outlined a conclusion
+    - Can you summarise the work for me
+    - show me a summary of all of my contributions
+    - conclude
+    - Summarise text
+    - Please summarise the text
+    - '@ai_agent summary text'
+    - Summarise the whole document
+    - Summary (highlighted text)
+    - Summarise the important detail
+    - can you make a synopsis of this topic
+    - Add a summary for the last paragraph
+    - Overall
+    - 'Summarise terms and conditions. '
+    - Summarise this paragraph
+    - Summarise (insert title of section)
+    - Create an outline of our day plan
+    - Rehash
+    - Summarise paragraph
+    - 'Summarise each section '
+    - Please explain briefly what we are doing
+    - simplify
+    - Explanation style
+    - Give me a summary
+    - In conclusion...
+    - takes action
+    - Summarize page 5 to avoid the multiple run on sentences found.
+    - concisely summarise
+    - Summarise schedule
+    - 'Can you keep simple and clear '
+    - Am I within word count
+    - '@ai_agent simplify text'
+    - How would you sum this up
+    - Summarise what the document includes in a short first paragraph
+    - Bring together.
+    - 'Summarise interview transcript. '
+    - Text summary
+    - Grab information from StackOverflow to display related to errors
