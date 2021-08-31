@@ -14,8 +14,8 @@ services:
       - "traefik.port=8088"
       - "traefik.docker.network=traefik-net"
       - "traefik.enable=true"
-      - "traefik.http.routers.limesurvey.rule=PathPrefix(`/collabo-writing-rasa`)"
-      - "traefik.http.routers.limesurvey.middlewares=strip-collabo-writing-rasa@docker"
+      - "traefik.http.routers.collabo-writing-rasa.rule=PathPrefix(`/collabo-writing-rasa`)"
+      - "traefik.http.routers.collabo-writing-rasa.middlewares=strip-collabo-writing-rasa@docker"
       - "traefik.http.middlewares.strip-collabo-writing-rasa.stripprefix.prefixes=/collabo-writing-rasa"
 
 networks:
