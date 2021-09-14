@@ -275,3 +275,416 @@ nlu:
     - 'Summarise interview transcript. '
     - Text summary
     - Grab information from StackOverflow to display related to errors
+
+
+- intent: extend
+  examples: |
+    - extend this text
+    - Extend sentence
+    - 'Extend paragraph 3 '
+    - Expand this section
+    - add more words
+    - however
+    - Extend and improve this sentence
+    - Does the sentence need more adjectives?
+    - Add more content as suggested
+    - extend
+    - Please put in more detail
+    - lists
+    - Rephrase sentences in Para A to extend length
+    - Extend the text
+    - dropdown read more
+    - The boy ran up the hill.
+    - With reference
+    - Can we add more to paragraph 1?
+    - add an additional fact within this paragraph
+    - Add depth
+    - Fix short sentences in <section>
+    - extend the last paragraph
+    - i do not know much on that
+    - expand this text
+    - Please make this document xxx words long
+    - Add examples
+    - broad
+    - lengthen para 5.
+    - Call John from the group
+    - Suggest additional information for paragraph.
+    - Extend
+    - add
+    - Extend and complete the following sentence
+    - Extend this.
+    - to short
+    - extend background on a topic
+    - Extend the concluding sentence.
+    - speech recognition
+    - Extending a paragraph can be better than just a wee short paragraph as it would
+      look more professional
+    - add an extra sentence onto the introduction
+    - 'Can you check the highlighted texts for any sentences that could be lengthened? '
+    - Ellaborate on this section
+    - extend sentance
+    - '@AI Agent - Please elaborate on short sentences. '
+    - Please extend a short paragraph with relevant information.
+    - Extend para (suggests alternative sentences to increase word count)
+    - Increase length
+    - The cat licked its lips
+    - elongate
+    - Extend sentence
+    - Pad sentence
+    - Expand this sentence.
+    - extend this
+    - use complete sentences
+    - can you add something to this
+    - extend my document
+    - Lengthen
+    - Make the highlighted paragraph more interesting.
+    - Extend sentence
+    - add more words
+    - 'Lengthen '
+    - Expand on this sentence
+    - Can you extend my essay so it reaches the word count
+    - AI complete a extend task
+    - 'The heart pumps blood '
+    - Short sentence / paragraph noted, do you want me to extend/ increase it
+    - Extend the highlighted sentence in 20 words
+    - Make sure all sentences are at least 20 words long
+    - suggest ways to extend this paragraph
+    - extend
+    - elaborate
+    - Provide more information.
+    - Make the first paragraph 200 words longer
+    - Elaborate on text
+    - Padding out sentence
+    - Can you make this text longer please?
+    - very useful
+    - extend last paragraph
+    - 'Embellish language '
+    - '@ai_agent reword sentance'
+    - '@ai agent - expand on text '
+    - this can be improved
+    - Write a longer alternative
+    - Reword and lengthen this sentence
+    - You may need to extend the conclusion to include and relate to what you said at
+      the beginning
+    - unsure on this
+    - 'Highlight short sentences and incomplete sentences and make suggestions for possible
+      corrections '
+    - Pad out
+    - Is there any improvements you can make?
+    - More detail
+    - calculate the other possibilities
+    - Create paragraph (highlighted text)
+    - Change as required
+    - i went to the park
+    - Please extend the text where if appropriate
+    - I need more content on this
+    - Suggest another descriptions for some products
+    - 'please extend first sentence paragraph one - using the keyword toffee '
+    - Can you provide more information pertaining to this subject matter?
+    - Add more words to a sentence
+    - 'Extend sentences where necessary to convey the message properly. '
+    - Neutral
+    - Improve my sentence
+    - 'Expand text. '
+    - 'Extend Court Document to 1,000 word count, e.g. '
+    - Extend this sentence
+    - Extend all paragraphs shorted than 4 sentences
+    - Extend sentence
+    - AI EXTEND
+    - Extend version updates 1.0 to 1.1
+    - Extend this section
+    - 'Extend text '
+    - 'idk what too do '
+    - ai extend 'x'
+    - Fill
+    - Extend sentence if less than 'x' number of words.
+    - Extend sentence
+    - Can you offer extension suggestions
+    - expand description
+    - Is Candy addicitive
+    - 'create more text '
+    - Suggest sentence completeness
+    - Change from bullet point to paragraph
+    - bulk this out
+    - on the other hand
+    - Ensure word count met
+    - Please expand on this section
+    - Methods
+    - hide and show text
+    - 'This procedure is incorrect. '
+    - With description
+    - can we exaggerate on paragraph 2?
+    - Extend line
+    - Fix short sentences
+    - write more sentences for this text
+    - 'Please make paragraph 4 longer '
+    - Add descriptive vocabulary
+    - Enhance the paragraph
+    - Make this longer
+    - Make this longer.
+    - extend references (e.g. to include more current citations, or additional areas)
+    - problem solving
+    - Can you provide longer examples for the header of the document?
+    - Go in to more detail on this finding
+    - extend paragraph
+    - '@AI Agent - Please increase the word count of the document with relevant information. '
+    - The dog barked loudly
+    - This one is a bad feature honestly
+    - make longer
+    - Extend
+    - Engage the reader more in this paragraph.
+    - Extend closing paragraph
+    - 'Expand '
+    - Can you help me broaden this explaination
+    - AI start EX task
+    - elaborate
+    - To make it more interesting.
+    - Extend text section
+    - We need to increase the wordcount
+    - 'Expand relevant themes  '
+    - '@ai_agent extend sentance'
+    - '@ai agent - fill out sentence / paragraph'
+    - Extend this sentence to read better
+    - Can you make the document longer?
+    - Fill out
+    - this should be longer
+    - Sentence 3 is too short - can you extend it?
+    - 'Add some words to the selected text for me '
+    - More details.
+    - Extend this paragraph
+    - 'Extend paragraphs as needed '
+    - Research further information to add
+    - Can you make this longer
+    - what brainwashing
+    - extend
+    - She is the director in our organisation.
+    - 'Please add another paragraph to this document '
+    - Extend the paragraph
+    - Extend this
+    - How to fill up the word count?
+    - learning and planning
+    - Can you extend the opening sentence to better include information?
+    - extend
+    - Expand sentence
+    - Extend outline
+    - Can you break down big words
+    - To make it easier to read.
+    - Increase text detail
+    - '@ai_agent make sentace longer'
+    - '@ai agent - fill out text'
+    - Extend this sentence
+    - Needs more
+    - Extend changelog automatically
+
+- intent: translate
+  examples: |
+    - translate paragraph
+    - Translate this
+    - 'Translate sentence '
+    - Translate this text to english
+    - rewrite this
+    - translate into english
+    - Please translate this document into English
+    - The paragraph might need the technical language that's already in it
+    - "przekazuje dany tekst do t\u0142umaczenia"
+    - Use the text to translate into another language
+    - ai translate
+    - Find another word that means the same
+    - translate words
+    - Translate text into French
+    - Please translate the text.
+    - 'Default language '
+    - "\u4F60\u6709\u732B\u54AA\u5417\uFF1F"
+    - simplify
+    - 'translate sentence 1? '
+    - translate into another language
+    - Translate line
+    - Translate <section> to <language>
+    - Translate to english
+    - 'i dont remember AI agent translating any paragrah '
+    - translate this text to <language>
+    - translate this
+    - Translate paragraph 3
+    - Translate this
+    - translate the word candy into the 5 most popular languages
+    - 'Check the grammar '
+    - Remove unnecessary words and sentences
+    - Translate this to [language]
+    - translate
+    - Translate the following sentence into English
+    - Translate this.
+    - Translate please
+    - translate into target submission platform language (would need to be carefully checked
+      however)
+    - Please ensure the text is legible to a 12 year old.
+    - share knowledge
+    - Translate would be brill if you were sending to other countries
+    - Translate all quotes in the text into spanish
+    - Can you translate the header of the document?
+    - Translate the document in to english
+    - translates text to english
+    - '@AI Agent - Please translate document to ''[LANGUAGE]'
+    - Highlight all texts that is not in the language of the primary document.
+    - Translate para
+    - Change language
+    - How do I make my idea more simplistic and relatable to the reader whilst maintaining
+      a certain degree of technical analysis
+    - interpret
+    - make language easier
+    - Translate to (language)
+    - Translate this source text to English.
+    - translate this
+    - translate text to South American Spanish
+    - can you translate this
+    - translate this for me
+    - Translate text
+    - Translate this sentence to English.
+    - Can you translate all non English words
+    - translate to english
+    - 'Language '
+    - Rewrite sentence in Plain English
+    - Can you translate this extract to *insert language*
+    - 'TRL task '
+    - 'translate this to Greek '
+    - please translate document to X
+    - Translate selected text
+    - Translate to German
+    - translate paragraph 1 to english
+    - translate to .......
+    - detect language in this paragraph
+    - This will make it easier for readers to understand.
+    - What does the second sentence in the first paragraph mean?
+    - Translate text to 'language'
+    - Please translate AI
+    - Could you translate this text please?
+    - 'yes'
+    - translate doc to English
+    - 'Translate relevant paragraph  '
+    - '@ai_agent translate text'
+    - '@ai agent - translate text to (language)'
+    - they can understand this better
+    - Please reword this infomation into a simle format.
+    - Translate this section
+    - Help and translate this paragraph in "French" .please
+    - translate final paragraph
+    - Ensure that any foreign language text is in italics and has a suitable and accurate
+      translation
+    - Translate from - to
+    - Can you translate the first paragraph to French?
+    - Easier to read
+    - Do not translate complex phrases
+    - Translate (highlighted text)
+    - Translate
+    - "le bonbon est si d\xE9licieux"
+    - please translate in......
+    - Translate this.
+    - We do not use translation yet it might be helpful by translating some "atypical"
+      words to mdern english
+    - please translate this recipe from Vietnamese to English
+    - 'Transcribe to '
+    - Translate to document to....
+    - trandslate the text into Spanish.
+    - available translation
+    - Please adapt my text to (language here)
+    - Translate to language.
+    - Translate letter into Polish
+    - Translate headers
+    - Translate the text to English
+    - Translate highlighted text to x language
+    - translateto
+    - Identify different world languages and change to the users language
+    - Put this document into (language)
+    - Translate page to English
+    - cool
+    - ai translate 'x' to english
+    - Translate
+    - Translation required.
+    - Translate
+    - Translate please
+    - English to XXX language
+    - Translate all into English
+    - translate text
+    - Translate ALL
+    - Translate this section to language X
+    - 'translate from english '
+    - This document is to be in Spanish and German
+    - Use the text to create a code for a computer based output
+    - ai perform translation
+    - Change wording
+    - Does the translation make sense
+    - Home Language
+    - "\u4ED6\u662F\u4E00\u4E2A\u5F88\u597D\u7684\u5B69\u5B50\uFF0C \u6211\u5F88\u559C\
+      \u6B22\u4ED6\u3002"
+    - 'explain '
+    - Change to (Language)
+    - Translate <entire document> to <language>
+    - german to english
+    - translate paragraphs 1-4
+    - translate candy into the 5 most popular languages
+    - 'Remove jargon '
+    - What does this mean in [language]?
+    - Translate into general language.
+    - explain it
+    - Can you include translations below each paragraph of the document?
+    - Restate this document in Spanish
+    - Translate document
+    - convert text
+    - translate
+    - Translate this sentence to French.
+    - Can you translate all of paragraph 2
+    - 'Adjust '
+    - Which language is this written in
+    - 'AI translate '
+    - Translate this sentence to Spanish
+    - tell me the language of paragraph 1
+    - 'change language to ..... '
+    - can you translate this paragraph
+    - 'Please provide a Catalan and a Spanish copy of this document '
+    - Convert text to 'language'
+    - Please convert this text to English?
+    - 'Translate research themes '
+    - '@ai_agent translate to X'
+    - Translate this quote
+    - Complete the translation of the text into a "certain" general language
+    - Check translation
+    - How do I say this in German
+    - change text to the following language
+    - Translate this word to...
+    - 'Is language correct for the audience. '
+    - 'Translate email into Polish '
+    - Translate document summary
+    - Detect the language used in the third and final paragraph
+    - Can translate one coding language to another (Very difficult)
+    - ai translate 'x' to spanish
+    - Convert
+    - 'translate this text '
+    - Translate selected text
+    - 'ai '
+    - Please suggest alternative words
+    - Is the punctuation appropriate for the language eg. are all the correct accents
+      in place
+    - Read text
+    - language
+    - Unify language (translates any section not in default langauge into default language)
+    - 'translate '
+    - candy in 5 languages most used
+    - Replace overly complex language with language is simple and easy to understand
+    - What's the word for [word] in [language]?
+    - Interpret this sentence.
+    - transfer the knowledge
+    - Can you translate only the last page of the document?
+    - Translate graph
+    - Translate certain word in to both English and Spanish
+    - Can you translate my text to *insert language*
+    - can you check translated texts vocabulary
+    - What does the underlined word mean in English
+    - 'Identify content to be translated '
+    - Translate the entire document
+    - Complete translation
+    - Could you convert this to English
+    - Translate this paragraph to...
+    - Translate Court documents into Polish
+    - Translate whole document
+    - Translate from French to English
+    - Can translate anything you want to highlight
+    - Transcribe
